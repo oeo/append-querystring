@@ -1,15 +1,13 @@
 {
   "name": "append-querystring",
-  "description": "append a querystring obj/str into another url",
-  "version": "0.0.1",
-  "main": "./build/module.js",
-  "author": "taky@taky.com",
-  "repository": "douglauer/add-querystring",
-  "keywords": [
-    "querystring",
-    "append",
-    "sids",
-    "tracking",
-    "taky"
-  ]
+  "description": "Append anything to a URL's query-string",
+  "version": "1.0.0",
+  "main": "./module.js",
+  "repository": "oeo/append-querystring",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
 }
